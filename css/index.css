@@ -1,0 +1,39 @@
+#box1 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    position: absolute;
+}
+
+.button {
+    background-color: #4caf50;
+    border: 5px;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#box2 {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.box3 {
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-evenly;
+    position: relative;
+}
